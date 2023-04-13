@@ -69,7 +69,7 @@ btn.addEventListener("click", () => {
             <h4>${kaja.etel}</h4>
             <p>${kaja.ital}</p>
             <p>${kaja.ar}</p>
-            <a href="${kaja.kep}"></a>
+            <img src='${kaja.kep}'>
         </div>
         `
     })

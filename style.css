@@ -49,3 +49,9 @@ h1{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+img{
+
+    height: 400px;
+    width: 400px;
+}
