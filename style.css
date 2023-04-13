@@ -28,7 +28,7 @@ h1{
 #result{
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .etelek{
@@ -38,4 +38,14 @@ h1{
     margin: 5px 10px;
     text-align: center;
     font-size: 17px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 576px){
+
+    #result{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
