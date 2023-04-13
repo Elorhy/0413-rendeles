@@ -1,0 +1,41 @@
+body{
+
+    background: rgba(165, 102, 102, 0.644);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 2px;
+    border-bottom: 2px solid black;
+}
+
+#btn{
+
+    font-size: 17px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: lightgreen;
+}
+
+#result{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.etelek{
+
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 10px;
+    text-align: center;
+    font-size: 17px;
+}
